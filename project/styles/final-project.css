@@ -1,0 +1,89 @@
+body{
+    background-color: #1c1c1c;
+}
+
+h4, h5 {
+    font-family: Courier;
+    color:#C4A000;
+}
+h5{
+    margin-top:-15px;
+}
+
+#orbits {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#sun {
+    stroke: #666;
+    fill: #C4A000;
+}   
+
+.tool{
+    height:auto;
+    width:11em;
+    background-color:#1F414D;
+    color:#EDDB0E;
+    padding:10px;
+    font-family: Courier;
+    font-weight: 400;
+    border:double 3px #DE4A00;
+    cursor:default;
+}  
+
+.orbit {
+    fill: none;
+    stroke-dasharray:2.5;
+    opacity:0.5;
+}   
+
+.moon {
+    stroke: #00A0C4;
+    fill: #00A0C4;
+}  
+
+.moon:hover {
+    stroke: #78BA27;
+    stroke-width: 2px;
+    fill: #0EEDCF;
+} 
+
+.planet {
+    stroke: #78BA27;
+    fill: #78BA27;
+    z-index:95;
+}   
+
+.planet:hover {
+    stroke: #C4A000;
+    stroke-width: 3px;
+    fill: #DE4A00;
+} 
+
+footer{
+    color:#C4A000;
+    text-transform: uppercase;
+    position:fixed;
+    bottom:0;
+    right:0;
+    font-size:70%;
+    width:13em;  
+ }
+
+ a {
+    color:#C4A000;
+ }
+
+.p_line{ 
+    stroke:#C4A000; 
+    stroke-width: 1px;  
+}
+
+.m_line{ 
+    stroke:#78BA27; 
+    stroke-width: 1px;  
+}
+

@@ -1,0 +1,53 @@
+/* Stylesheet For Particular Projects */
+
+body.correct {
+  background-color:#EBE8DD;
+  color:#00336E;
+  background-blend-mode: multiply;
+
+}
+
+span{
+	font-weight:600;
+	font-style: italic;
+}
+body.correct header h2{
+	border:none;
+	text-align:right;
+	letter-spacing:1px;
+	color:#DBBE16;
+}
+article{
+	width:80%;
+	margin-left:3em;
+}
+article p{
+	width:70%;
+	margin-left:2em;
+}
+h3{
+	margin-left:2em;
+	color:#E86C00;
+}
+h1{
+	color:#DBBE16;
+}
+
+footer{
+  	color:#E86C00;
+    text-transform: uppercase;
+    bottom:0;
+    font-size:70%;
+    width:13em;
+    
+ }
+img{width:20em;
+ 	margin-left:3em;
+ 	margin-top:1em;
+ 	margin-bottom:1em;
+
+ }
+
+a {
+	color:#DBBE16;
+}
